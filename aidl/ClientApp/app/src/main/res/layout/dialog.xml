@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPrice"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_price"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCountry"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_country"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDelivery"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_delivery"/>
+
+
+</LinearLayout>
